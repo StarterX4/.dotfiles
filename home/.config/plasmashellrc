@@ -1,0 +1,90 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgwAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAABEgAAAAEAAAAAAAAD6AAAAABk
+
+[ConfigDialog]
+Height 768=522
+Width 1366=661
+eDP-1 Height 1920x1080=526
+eDP-1 Width 1920x1080=658
+eDP1 Height 1920x1080=524
+eDP1 Width 1920x1080=658
+
+[DownloadDialog Settings]
+Height 1080=454
+Height 768=464
+Width 1366=700
+Width 1920=700
+eDP1 Height 1080=454
+eDP1 Width 1920=700
+
+[FileDialogSize]
+Height 768=641
+Width 1366=912
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+
+[KPropertiesDialog]
+Height 1080=466
+Height 768=426
+Width 1366=416
+Width 1920=391
+eDP-1 Height 1920x1080=488
+eDP-1 Width 1920x1080=431
+eDP1 Height 1920x1080=488
+eDP1 Width 1920x1080=421
+
+[Open-with settings]
+CompletionMode=1
+History=wx,kate
+
+[PlasmaRunnerManager]
+LaunchCounts=2 services_applications:org.kde.artikulate.desktop,1 services_applications:org.kde.ark.desktop,2 services_applications:org.gnome.Characters.desktop,7 services_applications:vncviewer.desktop,1 services_org.kde.kolourpaint.desktop,1 services_applications:keybase.desktop,1 services_applications:org.kde.plasma-systemmonitor.desktop,2 services_org.kde.kate.desktop,3 services_kvantummanager.desktop,1 services_applications:org.kde.kmix.desktop,1 services_applications:sqlitebrowser.desktop,3 services_mate-font-viewer.desktop,1 services_applications:org.rnd2.cpupower_gui.desktop,1 services_notepadqq.desktop,1 services_applications:ca.desrt.dconf-editor.desktop,1 services_pamac-updater.desktop,1 services_applications:org.gnome.SoundRecorder.desktop,1 services_org.kde.sweeper.desktop,1 services_kcm_fonts.desktop,1 services_applications:visual-studio-code.desktop,1 services_applications:geany.desktop,10 services_applications:duolingo-nativefier.desktop,12 services_applications:pavucontrol.desktop,1 services_org.kde.okular.kirigami.desktop,1 services_org.kde.kwrite.desktop,4 services_vncviewer.desktop,4 services_org.kde.okteta.desktop,1 shell_file-roller,3 services_applications:google-earth-pro.desktop,1 services_applications:org.kde.krita.desktop,1 services_kcm_energyinfo.desktop,1 services_org.kde.kdeconnect.app.desktop,4 services_phoronix-test-suite.desktop,1 services_applications:opera.desktop,1 services_opengl.desktop,2 services_gucharmap.desktop,1 services_octopi.desktop,4 services_org.manjaro.pamac.manager.desktop,1 services_applications:bvnc.desktop,1 services_pcmanfm-qt.desktop,1 services_org.kde.kmag.desktop,1 services_applications:boinc.desktop,2 services_applications:geforcenow-nativefier.desktop,3 services_applications:gucharmap.desktop,4 services_applications:gparted.desktop,1 services_applications:sauerbraten.desktop,1 services_org.kde.klettres.desktop,1 services_kcm_kdeconnect.desktop,1 shell_xbill,2 services_i-nex.desktop,1 services_applications:org.bleachbit.BleachBit.desktop,3 services_org.gnome.gedit.desktop,1 services_org.kde.kcharselect.desktop,5 services_org.gnome.Nautilus.desktop,4 services_applications:org.kde.kmouth.desktop,3 services_org.gnome.Calculator.desktop,1 services_org.gnome.Characters.desktop,2 services_org.gnome.font-viewer.desktop,2 services_PlayOnLinux.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=24
+
+[PlasmaViews][Panel 2][Horizontal1366]
+thickness=24
+
+[PlasmaViews][Panel 2][Horizontal1743]
+thickness=24
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=24
+
+[PlasmaViews][Panel 35]
+alignment=2
+panelVisibility=0
+
+[PlasmaViews][Panel 35][Defaults]
+maxLength=1080
+minLength=1058
+thickness=44
+
+[PlasmaViews][Panel 35][Horizontal1366]
+thickness=36
+
+[PlasmaViews][Panel 35][Vertical1080]
+maxLength=1080
+minLength=1058
+thickness=44
+
+[PlasmaViews][Panel 35][Vertical768]
+maxLength=768
+minLength=744
+offset=0
+thickness=44
+
+[PlasmaViews][Panel 35][Vertical980]
+thickness=44
+
+[ScreenConnectors]
+0=eDP1
+1=HDMI1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js

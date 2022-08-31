@@ -1,0 +1,35 @@
+Understand, Correct, Improve           ___
+________/| _________________/\__/\____/  /_____
+\  ____/ |/   __/  /  / __ /  \/  \  \  /   __/
+|   __/  /\__   \    /  __ \      /     \  _/ \
+|___\ \__\____  //__/\_____/\    /__/\  /_____/
++-------------\/breeze'04----\  /crew-\/-------
+                              \/
+Amiga Classic Red
+-----------------
+Basic icon set of xcursors (X11)
+
+[install]
+
+1) unpack Amiga-Classic-Red to the ~/.icons/
+2) insert into ~/.Xdefaults or create new file and insert next string:
+
+Xcursor*theme: Amiga-Classic-Red
+
+3) insert into ~/.gtkrc-2.0 or create new file and insert next string:
+
+gtk-cursor-theme-name = "Amiga-Classic-Red"
+
+4) for XFCE run xfce4-mouse-settings and choose theme "Amiga (Classic Red)"
+
+5) restart your X (xorg)
+
+6) Enjoy with Amiga ;)
+
+[credits]
+
+created by breeze \ fishbone crew
+with help gimp | powered by freebsd
+based on original amiga workbench icon
+
+http://breeze-fbn.deviantart.com/

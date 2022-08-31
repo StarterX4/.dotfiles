@@ -1,0 +1,14 @@
+[Common]
+OutlineCloseButton=false
+OutlineCloseButton=false
+ShadowStrength=89
+ShadowStrength=89
+
+[Style]
+AnimationsEnabled=false
+ScrollBarAddLineButtons=2
+ScrollBarSubLineButtons=1
+
+[Windeco]
+DrawBackgroundGradient=false
+DrawBackgroundGradient=false

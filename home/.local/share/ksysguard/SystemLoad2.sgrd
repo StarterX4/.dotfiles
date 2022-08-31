@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet columns="1" locked="1" rows="3" interval="0.5" title="System Load">
+ <host port="-1" shell="" name="localhost" command="ksysguardd"/>
+ <display version="1" class="FancyPlotter" autoRange="0" hLines="1" manualRange="0" row="0" fontSize="8" vScroll="0" rowSpan="1" showUnit="0" vLines="0" unit="" hScale="6" vDistance="30" column="0" svgBackground="widgets/plot-background" labels="1" title="CPU History" columnSpan="1" stacked="0">
+  <beam regexpSensorName="cpu/cpu.*/TotalLoad" hostName="localhost" color="0xffff8000,0xffe20800,0xfff3c300,0xffff0000,0xff00a900,0xff0028a9,0xffa92928,0xff28a929,0xff297da9,0xffa9bd7d,0xff7dbdbd,0xffbdfdbd,0xffbde7fd,0xfffd87e7,0xffe78787,0xff87a787" sensorType="float"/>
+ </display>
+ <display version="1" class="FancyPlotter" autoRange="0" hLines="1" manualRange="0" row="1" fontSize="8" vScroll="0" rowSpan="1" showUnit="0" vLines="0" unit="" hScale="6" vDistance="30" column="0" svgBackground="widgets/plot-background" labels="1" title="Memory and Swap History" columnSpan="1" stacked="0">
+  <beam sensorName="mem/physical/application" hostName="localhost" summationName="Memory" color="0xffc000c0" sensorType="integer"/>
+  <beam sensorName="mem/swap/used" hostName="localhost" summationName="Swap" color="0xff00c000" sensorType="integer"/>
+ </display>
+ <display version="1" class="FancyPlotter" autoRange="1" hLines="1" manualRange="1" row="2" min="0" vScroll="0" fontSize="8" rowSpan="1" showUnit="0" vLines="0" unit="" hScale="6" vDistance="30" column="0" svgBackground="widgets/plot-background" max="20" labels="1" title="Network History" columnSpan="1" stacked="0">
+  <beam regexpSensorName="network/interfaces/(?!lo|bridge|usbus|bond).*/receiver/data" hostName="localhost" summationName="Receiving" color="0xffb3a52d" sensorType="float"/>
+  <beam regexpSensorName="network/interfaces/(?!lo|bridge|usbus|bond).*/transmitter/data" hostName="localhost" summationName="Sending" color="0xff844798" sensorType="float"/>
+ </display>
+</WorkSheet>

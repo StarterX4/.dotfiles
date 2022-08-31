@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment[en_IE]=my chrome startup, since it fails to add itself
+Comment=my chrome startup, since it fails to add itself
+Comment[pl_PL]=mój startup chroma, bo sam sie nie dodaje
+Exec=env DRI_PRIME=0 LIBVA_DRIVER_NAME=radeonsi_drv_video VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.x86_64.json /bin/thorium-browser --no-startup-window /prefetch:5 --flag-switches-begin --flag-switches-end --restore-last-session -disk-cache-size=2000000000 --force-dark-mode --ozone-platform=wayland --enable-features=UseOzonePlatform --enable-features=VaapiVideoDecoder --process-per-site --js-flags="--no-lazy --parallel-compile-tasks" --disable-gpu-sandbox --enable-native-gpu-memory-buffers
+GenericName[en_IE]=
+GenericName=
+MimeType=
+Name[en_IE]=Thorum Startup
+Name=Thorum Startup
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-RunOnDiscreteGpu=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-MATE-Autostart-enabled=true

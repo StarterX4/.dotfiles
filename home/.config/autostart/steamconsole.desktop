@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=konsole --hold -e bash /gry/Steam/steam/steam.sh -console
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[pl_PL]=steam w konsoli
+Name=steam in console
+Comment[pl_PL]=
+Comment=

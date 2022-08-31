@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet columns="1" locked="0" rows="3" interval="0.5" title="Widok 1">
+ <host port="-1" shell="" name="localhost" command="ksysguardd"/>
+ <display version="1" class="FancyPlotter" autoRange="1" hLines="1" manualRange="0" row="0" fontSize="8" vScroll="0" rowSpan="1" showUnit="0" vLines="0" unit="" hScale="6" vDistance="30" column="0" svgBackground="" labels="1" title="Connection quality" columnSpan="1" stacked="0">
+  <beam sensorName="network/interfaces/wlp4s0/wifi/quality" hostName="localhost" color="0xff0057ae" sensorType="float"/>
+ </display>
+ <display version="1" class="FancyPlotter" autoRange="1" hLines="1" manualRange="0" row="1" fontSize="8" vScroll="0" rowSpan="1" showUnit="0" vLines="0" unit="" hScale="6" vDistance="30" column="0" svgBackground="" labels="1" title="Signal level" columnSpan="1" stacked="0">
+  <beam sensorName="network/interfaces/wlp4s0/wifi/signal" hostName="localhost" color="0xff0057ae" sensorType="float"/>
+ </display>
+ <display version="1" class="FancyPlotter" autoRange="1" hLines="1" manualRange="0" row="2" fontSize="8" vScroll="0" rowSpan="1" showUnit="0" vLines="0" unit="" hScale="6" vDistance="30" column="0" svgBackground="" labels="1" title="Noise level" columnSpan="1" stacked="0">
+  <beam sensorName="network/interfaces/wlp4s0/wifi/noise" hostName="localhost" color="0xff0057ae" sensorType="float"/>
+ </display>
+</WorkSheet>

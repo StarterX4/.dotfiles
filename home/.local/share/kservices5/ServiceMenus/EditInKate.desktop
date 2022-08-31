@@ -1,0 +1,16 @@
+# v1.0
+# contact: piotr4@gmail.com
+# GPLv3
+
+[Desktop Entry]
+Type=Service
+InitialPreference=3
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/octet-stream;
+Actions=EditInKate
+X-KDE-Priority=TopLevel
+
+[Desktop Action EditInKate]
+Name=Edit in Kate
+Icon=kate
+Exec=kate %U

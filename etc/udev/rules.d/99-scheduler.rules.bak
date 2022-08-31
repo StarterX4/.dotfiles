@@ -1,0 +1,2 @@
+# HDD WD sda
+ACTION=="add|change", SUBSYSTEM=="block", ENV{ID_WWN}=="0x50014ee6afb19b47", ATTR{queue/scheduler}="bfq"

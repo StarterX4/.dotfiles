@@ -1,0 +1,146 @@
+[Diff Options]
+CompareRecursively=true
+ConvertTabsToSpaces=false
+CreateSmallerDiff=true
+DiffProgram=
+Format=\x04
+IgnoreAllWhiteSpace=false
+IgnoreChangesDueToTabExpansion=false
+IgnoreChangesInCase=false
+IgnoreEmptyLines=false
+IgnoreRegExp=false
+IgnoreRegExpText=
+IgnoreRegExpTextHistory=
+IgnoreWhiteSpace=false
+LargeFiles=true
+LinesOfContext=3
+NewFiles=true
+ShowCFunctionChange=false
+
+[Exclude File Options]
+File=false
+FileHistoryList=
+FileURL=
+Pattern=false
+PatternList=
+
+[General Options]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAgAAAAIAAAdUAAAA1vwBAAAAAfsAAAAUAE4AYQB2AGkAZwBhAHQAaQBvAG4BAAAAAAAAB1QAAAFEAP///wAAAAMAAAdUAAAAfPwBAAAAAfsAAAASAFQAZQB4AHQAIABWAGkAZQB3AAAAAAD/////AAAAAAAAAAAAAAdUAAAC7QAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+eDP Window-Maximized 1920x1080=true
+eDP XPosition 1920x1080=538
+eDP YPosition 1920x1080=324
+eDP-1 Height 1920x1080=874
+eDP-1 Width 1920x1080=1725
+eDP-1 Window-Maximized 1920x1080=true
+eDP1 Height 1920x1080=965
+eDP1 Width 1920x1080=1790
+eDP1 XPosition 1920x1080=6
+eDP1 YPosition 1920x1080=52
+
+[KFileDialog Settings]
+iconViewIconSize=64
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=1
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
+Font=Hack,10,-1,7,50,0,0,0,0,0
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=false
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=<>(){}[]'"
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Show Line Count=false
+Show Scrollbars=0
+Show Word Count=false
+Smart Copy Cut=true
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[View Options]
+AddColor=135,126,204
+AppliedColor=237,225,134
+ChangeColor=237,133,133
+RemoveColor=147,237,122
+ScrollNoOfLines=3
+TabToNumberOfSpaces=4
+TextFont=Hack,10,-1,5,50,0,0,0,0,0

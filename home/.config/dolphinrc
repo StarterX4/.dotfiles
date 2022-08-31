@@ -1,0 +1,61 @@
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[Baloo KEditCommentDialog]
+eDP-1 Height 1920x1080=246
+eDP-1 Width 1920x1080=274
+
+[CreateDialog]
+LastMimeType=application/vnd.rar
+
+[ExtractDialog]
+DirHistory[$e]=/kesz/xVMs/
+eDP-1 Height 1920x1080=558
+eDP-1 Width 1920x1080=1280
+
+[General]
+RememberOpenedTabs=false
+ShowFullPath=true
+Version=202
+ViewPropsTimestamp=2022,3,24,22,15,54.776
+
+[IconsMode]
+IconSize=80
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+Recent Files[$e]=file:///kesz/xVMs,file:///kesz/xVMs
+Recent URLs[$e]=file:///kesz/xVMs/
+iconViewIconSize=64
+
+[KPropertiesDialog]
+XWAYLAND0 Height 1920x1080=475
+XWAYLAND0 Width 1920x1080=419
+eDP Height 1920x1080=478
+eDP Width 1920x1080=434
+eDP-1 Height 1920x1080=552
+eDP-1 Width 1920x1080=509
+eDP1 Height 1920x1080=506
+eDP1 Width 1920x1080=525
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP Height 1920x1080=865
+eDP Width 1920x1080=1255
+eDP XPosition 1920x1080=142
+eDP YPosition 1920x1080=92
+eDP-1 Height 1920x1080=914
+eDP-1 Width 1920x1080=1142
+eDP1 Height 1920x1080=881
+eDP1 Width 1920x1080=1160
+eDP1 XPosition 1920x1080=503
+eDP1 YPosition 1920x1080=129
+
+[Open-with settings]
+CompletionMode=1
+History=gwen,ghe,okt,kate,ark,wx,okteta,okte,hex,wxh
+
+[PreviewSettings]
+Plugins=kritathumbnail,imagethumbnail,exrthumbnail,ffmpegthumbs,blenderthumbnail,windowsexethumbnail,rawthumbnail,ebookthumbnail,fontthumbnail,gsthumbnail,comicbookthumbnail,cursorthumbnail,windowsimagethumbnail,djvuthumbnail,audiothumbnail,opendocumentthumbnail,svgthumbnail,jpegthumbnail,appimagethumbnail,directorythumbnail
