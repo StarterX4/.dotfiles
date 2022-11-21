@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids,kwinrules.upd:remove-placement-cascade
 
 [1]
 Description=Application settings for hl2_linux

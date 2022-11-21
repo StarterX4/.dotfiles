@@ -1,0 +1,113 @@
+{
+    "output": {
+        "bass_enhancer": {
+            "amount": 2.0000000000000004,
+            "blend": 0.0,
+            "bypass": false,
+            "floor": 50.0,
+            "floor-active": true,
+            "harmonics": 8.5,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "scope": 200.0
+        },
+        "blocklist": [],
+        "crystalizer": {
+            "band0": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band1": {
+                "bypass": false,
+                "intensity": -1.0,
+                "mute": false
+            },
+            "band10": {
+                "bypass": false,
+                "intensity": -10.0,
+                "mute": false
+            },
+            "band11": {
+                "bypass": false,
+                "intensity": -11.0,
+                "mute": false
+            },
+            "band12": {
+                "bypass": false,
+                "intensity": -12.0,
+                "mute": false
+            },
+            "band2": {
+                "bypass": false,
+                "intensity": -2.0,
+                "mute": false
+            },
+            "band3": {
+                "bypass": false,
+                "intensity": -3.0,
+                "mute": false
+            },
+            "band4": {
+                "bypass": false,
+                "intensity": -4.0,
+                "mute": false
+            },
+            "band5": {
+                "bypass": false,
+                "intensity": -5.0,
+                "mute": false
+            },
+            "band6": {
+                "bypass": false,
+                "intensity": -6.0,
+                "mute": false
+            },
+            "band7": {
+                "bypass": false,
+                "intensity": -7.0,
+                "mute": false
+            },
+            "band8": {
+                "bypass": false,
+                "intensity": -8.0,
+                "mute": false
+            },
+            "band9": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "bypass": false,
+            "input-gain": 0.0,
+            "output-gain": 0.0
+        },
+        "echo_canceller": {
+            "bypass": true,
+            "filter-length": 100,
+            "frame-size": 10,
+            "input-gain": 0.0,
+            "output-gain": 0.0
+        },
+        "plugins_order": [
+            "crystalizer",
+            "bass_enhancer",
+            "reverb",
+            "echo_canceller"
+        ],
+        "reverb": {
+            "amount": -12.0,
+            "bass-cut": 300.0,
+            "bypass": true,
+            "decay-time": 1.5,
+            "diffusion": 0.5,
+            "dry": 0.0,
+            "hf-damp": 5000.0,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "predelay": 0.0,
+            "room-size": "Large",
+            "treble-cut": 5000.0
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "input": {
+        "blocklist": [],
+        "compressor": {
+            "attack": 20,
+            "boost-amount": 6,
+            "boost-threshold": -72,
+            "hpf-frequency": 10,
+            "hpf-mode": "off",
+            "input-gain": 0,
+            "knee": -6,
+            "lpf-frequency": 20000,
+            "lpf-mode": "off",
+            "makeup": 0,
+            "mode": "Downward",
+            "output-gain": 0,
+            "ratio": 4,
+            "release": 100,
+            "release-threshold": -120,
+            "sidechain": {
+                "lookahead": 0,
+                "mode": "RMS",
+                "preamp": 0,
+                "reactivity": 10,
+                "source": "Middle",
+                "type": "Feed-forward"
+            },
+            "threshold": -12
+        },
+        "deesser": {
+            "detection": "RMS",
+            "f1-freq": 6000,
+            "f1-level": 0,
+            "f2-freq": 4500,
+            "f2-level": 12,
+            "f2-q": 1,
+            "input-gain": 0,
+            "laxity": 15,
+            "makeup": 0,
+            "mode": "Wide",
+            "output-gain": 0,
+            "ratio": 3,
+            "sc-listen": false,
+            "threshold": -18
+        },
+        "filter": {
+            "frequency": 80,
+            "inertia": 20,
+            "input-gain": 0,
+            "mode": "12dB/oct Highpass",
+            "output-gain": 0,
+            "resonance": -3
+        },
+        "gate": {
+            "attack": 5,
+            "detection": "RMS",
+            "input-gain": 0,
+            "knee": 9,
+            "makeup": 0,
+            "output-gain": 0,
+            "range": -12,
+            "ratio": 2,
+            "release": 100,
+            "stereo-link": "Average",
+            "threshold": -18
+        },
+        "limiter": {
+            "alr": false,
+            "alr-attack": 5,
+            "alr-knee": 0,
+            "alr-release": 50,
+            "attack": 5,
+            "dithering": "None",
+            "external-sidechain": false,
+            "gain-boost": true,
+            "input-gain": 0,
+            "lookahead": 5,
+            "mode": "Herm Thin",
+            "output-gain": 0,
+            "oversampling": "None",
+            "release": 5,
+            "sidechain-preamp": 0,
+            "stereo-link": 100,
+            "threshold": -1
+        },
+        "plugins_order": [
+            "gate",
+            "compressor",
+            "filter",
+            "deesser",
+            "rnnoise",
+            "limiter"
+        ],
+        "rnnoise": {
+            "input-gain": 0,
+            "model-path": "",
+            "output-gain": 0
+        }
+    },
+    "output": {
+        "blocklist": []
+    }
+}
