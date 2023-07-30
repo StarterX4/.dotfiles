@@ -8,8 +8,10 @@
 
 #UUID=344957ce-98f7-4d46-8d66-e3344e472712 swap           swap    defaults,noatime,nofail 0  0
 #####UUID=9195db7a-1cdf-4788-af44-2ae3c3e20bd9 /	btrfs	defaults,noatime,discard=async,compress-force=zstd:15	0	0
-/dev/nvme1n1p1				 /efi	     vfat    defaults,noatime,errors=remount-ro,discard,nofail	 0		2
-/efi/EFI/linn /boot none defaults,bind 0 0
+UUID=FE03-AF68				 /boot	     vfat    defaults,noatime,errors=remount-ro,discard,nofail	 0		2
+#/efi/EFI/linn /boot none defaults,bind 0 0
+UUID=B308-BDAA				/mnt/repchroot  vfat	 rw,nosuid,noatime,discard,noauto,user,nofail,errors=remount-ro 0	2
+/dev/cdrom 					/cd 		iso9660		ro,user,noauto,unhide
 #UUID=1d023367-43fc-48ba-813f-cfbbb40e641c /gry           ext4    defaults,noatime,nofail,inode_readahead_blks=64,nobarrier    0  1
 UUID=ea1f8b6c-96a0-4cb1-994b-a198fd2c6af2 /kesz   btrfs   defaults,noatime,compress-force=zstd:3,space_cache=v2,nofail,discard=async,noautodefrag  0   1
 PARTUUID=a71357d2-7d0a-425e-a337-3f828c4e52a1 /kesz_spadfs btrfs defaults,noatime,nospace_cache,clear_cache,nodatacow,discard=async,nofail 0 0

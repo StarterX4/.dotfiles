@@ -1,6 +1,15 @@
 #!/bin/sh
 cat <<EOF
 submenu 'ISO Boots' {
+    menuentry 'RavynOS' {
+        insmod loopback
+        loopback loop (hd1,gpt4)/iso/ravynOS_0.4.0pre5_f14_amd64.iso
+        chainloader (loop)/boot/loader.efi
+}
+    menuentry 'Active Boot Disk Suite (Win10 PE)' {
+        loopback loop (hd1,gpt4)/iso/ActiveBootDisk.iso
+        chainloader (loop)/BOOTMGR.EFI
+}
 # 	menuentry '[loopback]archlinux-2017.06.01-x86_64.iso' {
 # 		set isofile='(hd1,gpt1)/mnt/hdd/iso/archlinux-2017.06.01-x86_64.iso'
 # 		loopback loop $isofile
@@ -23,6 +32,11 @@ submenu 'ISO Boots' {
 # 		linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=/iso/linuxmint-17.3-cinnamon-64bit.iso noeject noprompt 
 # 		initrd (loop)/casper/initrd.lz
 # 	}
+	menuentry "[loopback] KDE Neon Unstable 30.5.2023" {
+		loopback loop /iso/neon-unstable-20230530-0324.iso
+		linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=/iso/neon-unstable-20230530-0324.iso noeject noprompt mitigations=off
+		initrd (loop)/casper/initrd
+	}
 # 	menuentry '[loopback]ubuntu-14.04.1-desktop-amd64' {
 # 		loopback loop /iso/ubuntu-mate-16.04-beta1-desktop-amd64.iso
 # 		linux (loop)/casper/vmlinuz.efi boot=casper iso-scan/filename=/iso/ubuntu-mate-16.04-beta1-desktop-amd64.iso locale=en_US.UTF-8
