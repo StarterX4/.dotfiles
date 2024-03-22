@@ -1,0 +1,13 @@
+[Desktop Action opencodeossfile]
+Exec=code %F
+Icon=code
+Name=Edit with Code - OSS
+Name[ar]=الفتح بواسطة Code - OSS
+Name[nl]=Bewerken met Code - OSS
+
+[Desktop Entry]
+Actions=opencodeossfile
+MimeType=text/plain;application/octet-stream;
+ServiceTypes=KonqPopupMenu/Plugin
+Type=Service
+X-KDE-Priority=TopLevel

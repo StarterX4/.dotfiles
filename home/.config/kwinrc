@@ -7,6 +7,7 @@ Enabled=true
 GLCore=true
 GLTextureFilter=2
 HiddenPreviews=5
+LatencyPolicy=High
 OpenGLIsUnsafe=false
 WindowsBlockCompositing=true
 XRenderSmoothScale=false
@@ -77,6 +78,9 @@ WobblynessLevel=1
 Duration=200
 ShapeCurve=8
 
+[Effect-kwin4_effect_wisps]
+Duration=170
+
 [Effect-windowview]
 BorderActivateAll=9
 
@@ -124,7 +128,6 @@ desktopchangeosdEnabled=false
 flipswitchEnabled=true
 force-decorations-gtk3Enabled=true
 gamemodeEnabled=true
-glideEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_loginEnabled=false
@@ -133,6 +136,7 @@ kwin4_effect_minimizescaleEnabled=true
 kwin4_effect_scaleEnabled=false
 kwin4_effect_squashEnabled=false
 kwin4_effect_translucencyEnabled=false
+kwin4_effect_wispsEnabled=true
 kwin4_effect_yetanothermagiclampEnabled=true
 magiclampEnabled=true
 magnifierEnabled=true
@@ -141,6 +145,7 @@ screenedgeEnabled=false
 slidingpopupsEnabled=false
 slidingtooltipsEnabled=false
 synchronizeskipswitcherEnabled=false
+tileseditorEnabled=false
 videowallEnabled=false
 windowgeometryEnabled=false
 zoomEnabled=false
