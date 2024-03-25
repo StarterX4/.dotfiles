@@ -128,6 +128,7 @@ desktopchangeosdEnabled=false
 flipswitchEnabled=true
 force-decorations-gtk3Enabled=true
 gamemodeEnabled=true
+glideEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_loginEnabled=false
@@ -141,9 +142,11 @@ kwin4_effect_yetanothermagiclampEnabled=true
 magiclampEnabled=true
 magnifierEnabled=true
 minimizeallEnabled=false
+scaleEnabled=false
 screenedgeEnabled=false
 slidingpopupsEnabled=false
 slidingtooltipsEnabled=false
+squashEnabled=false
 synchronizeskipswitcherEnabled=false
 tileseditorEnabled=false
 videowallEnabled=false
@@ -187,6 +190,9 @@ SwitchingMode=0
 [Tiling]
 padding=4
 
+[Tiling][b81a305d-7f7b-50bf-91f1-b763796b14e0]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][e1bd5b50-33ec-5b8f-949c-b85ed42ce3c6]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -197,7 +203,6 @@ Right=None
 Top=None
 
 [Windows]
-ActiveMouseScreen=false
 AutoRaise=false
 AutoRaiseInterval=750
 AutogroupInForeground=true

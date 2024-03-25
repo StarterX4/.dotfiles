@@ -92,6 +92,7 @@ Line Height Multiplier=1
 Schema=Breeze Dark
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
+Text Font=Hack,10,-1,7,400,0,0,0,0,0,0,0,0,0,0,1
 Word Wrap Marker=false
 
 [KTextEditor View]
@@ -110,6 +111,7 @@ Dynamic Word Wrap Align Indent=80
 Dynamic Word Wrap At Static Marker=false
 Dynamic Word Wrap Indicators=1
 Dynamic Wrap not at word boundaries=false
+Enable Tab completion=false
 Fold First Line=false
 Folding Bar=true
 Folding Preview=true
@@ -118,6 +120,7 @@ Input Mode=0
 Keyword Completion=true
 Line Modification=true
 Line Numbers=true
+Max Clipboard History Entries=20
 Maximum Search History Size=100
 Mouse Paste At Cursor Position=false
 Multiple Cursor Modifier=134217728
@@ -129,13 +132,21 @@ Scroll Bar MiniMap=true
 Scroll Bar Preview=true
 Scroll Past End=false
 Search/Replace Flags=140
+Shoe Line Ending Type in Statusbar=false
 Show Documentation With Completion=true
+Show File Encoding=true
 Show Focus Frame Around Editor=true
 Show Folding Icons On Hover Only=true
 Show Line Count=false
 Show Scrollbars=0
+Show Statusbar Dictionary=true
+Show Statusbar Highlighting Mode=true
+Show Statusbar Input Mode=true
+Show Statusbar Line Column=true
+Show Statusbar Tab Settings=true
 Show Word Count=false
 Smart Copy Cut=false
+Statusbar Line Column Compact Mode=true
 Text Drag And Drop=true
 User Sets Of Chars To Enclose Selection=
 Vi Input Mode Steal Keys=false
@@ -144,22 +155,43 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
+[KTextEditor::Search]
+Replace History=filesystem /,deb [arch=amd64\\,i386] ,cz.,skills,,geforcenow,GeForce NOW
+Search History=pill ca,z_jock,tank_,pause,filesystem ,CC,CC =,CC=,clan,zeni,factorio,factori,array.clea,array,C_A,/tmp/,cherry,rsync,statc,gh-pa,kw7,HEAD,wl_display_get,iso,noto,x13,imgsize,FAT,/boot,customi,chroot,arch,regis,arc,white,annoy,http,identity.fx,identity,pounce,vomi,motd,anti,livingtime,kether,setst,lib32,LDF,-fn,-O3,CFLAGS=,cfl,timer,roundsta,round,isinp,isced,isinpau,isp,iround,leave,isplayerr,ispl,isclie,inreadyup,ispla,play,ssh,xine,3.24.34,onpro,state_tra,client\\, false,client\\, true,yes,pluginre,command_vo,roundrespawn,respawn,playerteam,playert,spectat,15,spit,_conne,damage_,damage,ladd,indtar,playerinfo,event.,displaybuiltinvotepas,displaybu,builtinvotehandler,votehandler,result,builtin,setbu,L4d,sm_c
+
+[Kate Print Settings][Margins]
+bottom=4.23
+left=4.23
+right=4.23
+top=4.23
+
 [MainWindow]
+1920x1080 screen: Height=710
+1920x1080 screen: Width=1044
 Height 1080=809
 Height 768=670
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABSAAAAN/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA+wAAAMSAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAIb/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1366=763
 Width 1920=1384
 XWAYLAND0 XPosition 1920x1080=38
 XWAYLAND0 YPosition 1920x1080=59
 eDP Height 1920x1080=840
+eDP Height 1920x1080 eDP=881
 eDP Width 1920x1080=1694
+eDP Width 1920x1080 eDP=1238
+eDP-1=true
 eDP-1 Height 1080=966
+eDP-1 Height 1745x982 eDP-1=813
 eDP-1 Height 1920x1080=780
+eDP-1 Height 1920x1080 eDP-1=932
+eDP-1 Width 1745x982 eDP-1=1234
 eDP-1 Width 1920=1232
 eDP-1 Width 1920x1080=1128
+eDP-1 Width 1920x1080 eDP-1=1444
+eDP-1 XPosition 1920x1080 eDP-1=0
+eDP-1 YPosition 1920x1080 eDP-1=0
 eDP1 Height 1080=895
 eDP1 Height 1920x1080=855
 eDP1 Width 1920=1133
@@ -171,6 +203,35 @@ eDP1 YPosition 1920x1080=62
 
 [Notification Messages]
 Open Command BarCtrl+Alt+I=false
+
+[Printing][HeaderFooter]
+FooterBackground=211,211,211
+FooterBackgroundEnabled=false
+FooterEnabled=true
+FooterForeground=0,0,0
+FooterFormatCenter=
+FooterFormatLeft=
+FooterFormatRight=%U
+HeaderBackground=211,211,211
+HeaderBackgroundEnabled=false
+HeaderEnabled=true
+HeaderFooterFont=Noto Sans,10,-1,0,50,0,0,0,0,0
+HeaderForeground=0,0,0
+HeaderFormatCenter=%f
+HeaderFormatLeft=%y
+HeaderFormatRight=%p
+
+[Printing][Layout]
+BackgroundColorEnabled=false
+BoxColor=invalid
+BoxEnabled=false
+BoxMargin=6
+BoxWidth=1
+ColorScheme=Printing
+
+[Printing][Text]
+Legend=false
+LineNumbers=false
 
 [UiSettings]
 ColorScheme=
