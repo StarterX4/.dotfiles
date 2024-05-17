@@ -42,9 +42,13 @@
 		SearchPaths
 		{
 			Game				vocalizer
-			//Game				vzombiaki //Fortnite pinky common zombies models, some zombie animations are bugged.
-			Game				vpostprocessdisable //Let's have much more FPS on potato notebooks. Keep eyes on your third strike (aka BW).
+			//Game				vzombiaki //Fortnite pinky common zombies models
+			Game				vpostprocessdisable //Let's have much more FPS on potato notebooks
 			//Game				AlienSwarmFont //Lacks many special Unicode characters, including emojis.
+			Game				Addon_SlimHUD
+			Game				Addon_StrongFlashlight
+			Game				Addon_Brighter_Alarm_Cars
+			//Game				Addon_Jockey_CheekyBreeky
 			Game				update
 			Game				left4dead2_dlc3
 			Game				left4dead2_dlc2
