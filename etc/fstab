@@ -5,16 +5,41 @@
 # disks are added and removed. See fstab(5).
 #
 # <file system>                           <mount point>  <type>  <options>  <dump>  <pass-fsck>
-
 #UUID=344957ce-98f7-4d46-8d66-e3344e472712 swap           swap    defaults,noatime,nofail 0  0
+
 #####UUID=9195db7a-1cdf-4788-af44-2ae3c3e20bd9 /	btrfs	defaults,noatime,discard=async,compress-force=zstd:15	0	0
+
+#PARTUUID=43e3eb82-6730-4a89-a1b5-f91bc511373c /boot	     vfat    defaults,noatime,errors=remount-ro 0		2
 UUID=FE03-AF68				 /boot	     vfat    defaults,noatime,errors=remount-ro,discard,nofail	 0		2
 #/efi/EFI/linn /boot none defaults,bind 0 0
+
+# LVM2 -> LUKS(data)=linn -> Btrfs /home
+/dev/mapper/linn             /home               btrfs   defaults,noatime,compress=zstd:3,space_cache=v2,nofail,discard=async,max_inline=4096,x-systemd.automount  0   0
+
+# LVM2 -> Ext4 /cache
+/dev/main/cache              /cache              ext4   defaults,noatime,nofail,inode_readahead_blks=64,discard,nobarrier,x-systemd.automount    0  1
+/cache/home/starterx4/.cache /home/starterx4/.cache none defaults,bind 0 0      
+
 UUID=B308-BDAA				/mnt/repchroot  vfat	 rw,nosuid,noatime,discard,noauto,user,nofail,errors=remount-ro 0	2
 /dev/cdrom 					/cd 		iso9660		ro,user,noauto,unhide
-#UUID=1d023367-43fc-48ba-813f-cfbbb40e641c /gry           ext4    defaults,noatime,nofail,inode_readahead_blks=64,nobarrier    0  1
-UUID=ea1f8b6c-96a0-4cb1-994b-a198fd2c6af2 /kesz   btrfs   defaults,noatime,compress-force=zstd:3,space_cache=v2,nofail,discard=async,noautodefrag  0   1
-PARTUUID=a71357d2-7d0a-425e-a337-3f828c4e52a1 /kesz_spadfs btrfs defaults,noatime,nospace_cache,clear_cache,nodatacow,discard=async,nofail 0 0
+#UUID=d2d89354-18fb-11e8-b32a-b0c090955113 /boot		ext4 defaults,noatime,errors=remount-ro,inode_readahead_blks=64 0	1
+#/dev/sdb6 /gry   ext4    defaults,noatime,data=writeback,nofail 0       1
+
+UUID=1d023367-43fc-48ba-813f-cfbbb40e641c /mnt/hdd_gry     ext4         defaults,noatime,nofail,nodev,user,inode_readahead_blks=64,nobarrier,x-systemd.automount    0  1
+
+PARTUUID=5d69f49b-6cbd-49d1-a2da-b16332d7f3b1 /gry         f2fs         defaults,noatime,nofail,noquota,compress_algorithm=zstd:6,compress_chksum,atgc,gc_merge 0   1
+
+PARTUUID=6ea180eb-923e-4c1a-a5f5-6a8925084da2 /kesz    xfs          defaults,noatime,nofail,noquota,discard,bsdgroups   0    1
+#UUID=ea1f8b6c-96a0-4cb1-994b-a198fd2c6af2 /kesz   btrfs   defaults,noatime,compress-force=zstd:9,space_cache=v2,nofail,discard=async,autodefrag  0   0
+
+/kesz/ccache.btrfs       /kesz/ccache       btrfs  users,auto,noatime,nospace_cache,clear_cache,nodatacow,discard=async,nofail,max_inline=4096
+
+PARTUUID=e8186255-f062-429d-8fca-393942e1468a /kesz_spadfs f2fs         defaults,noatime,nofail,noquota,atgc,gc_merge 0   1
+#PARTUUID=a71357d2-7d0a-425e-a337-3f828c4e52a1 /kesz_spadfs btrfs defaults,noatime,nospace_cache,clear_cache,nodatacow,discard=async,nofail 0 0
 #PARTUUID=a71357d2-7d0a-425e-a337-3f828c4e52a1 /kesz_spadfs spadfs noatime,uid=1000,gid=1000,nofail 0 0
+
+#UUID=b4c9350a-e765-45fd-b7d6-445b82363d07 /kesz_f2fs    f2fs    defaults,noatime,compress_algorithm=lzo,noquota    0  1
+
 #hugetlbfs       			/dev/hugepages  hugetlbfs   mode=1770,gid=78   0 	0
+
 #/dev/zram0	none	swap	defaults,pri=100,nofail	0	0
