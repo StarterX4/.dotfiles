@@ -440,13 +440,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -520,13 +519,12 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -597,13 +595,12 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"7"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -648,13 +645,12 @@ Scheme
 				"antialias"	"1"
 				"blur"		"2"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"18"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
 				"antialias"	"1"
 				"blur"		"2"
 			}
@@ -823,12 +819,12 @@ Scheme
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
@@ -871,14 +867,13 @@ Scheme
 				"antialias" "1"
 				"yres"		"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -957,9 +952,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"400"
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2501,10 +2505,11 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"QuestObjectiveTracker_DescGlow"
@@ -2512,9 +2517,10 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
@@ -2522,7 +2528,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"		"0"
 				"blur"			"3"
 				"additive"		"1"
@@ -2755,7 +2762,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3275,7 +3282,15 @@ Scheme
 		"15" "resource/fonts/Lato.ttf"
 		"16" "resource/fonts/Gobold.ttf"
 		"17" "resource/fonts/ToonHUD Montserrat.ttf"
-		"18" "resource/fonts/Montserrat.ttf"
+		"18" "resource/fonts/Montserrat.ttf",
+		"19" "resource/linux_fonts/DejaVuSans.ttf"
+		"20" "resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"21" "resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"22" "resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"23" "resource/linux_fonts/LiberationSans-Regular.ttf"
+		"24" "resource/linux_fonts/LiberationSans-Bold.ttf"
+		"25" "resource/linux_fonts/LiberationMono-Regular.ttf"
+		"26" "resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
 

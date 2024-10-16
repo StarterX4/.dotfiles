@@ -95,9 +95,9 @@
 	"ToonHUDButton"
 	{
 		"label"		""
-		"command"	"engine play vo/burp05.mp3"
+		"command"	"engine play ui/tv_tune3.mp3"
 		"subimage"	"replay/thumbnails/glyphs/glyph_toonhud"
-		"tooltip"	"ToonHUD 11.4 by Griever"
+		"tooltip"	"ToonHUD 11.5 by Griever"
 	}
 
 }

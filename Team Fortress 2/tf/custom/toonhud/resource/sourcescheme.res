@@ -116,7 +116,7 @@ Scheme
 		FrameTitleButton.FgColor		"G_TitleText"
 
 		// Frame titles
-		FrameTitleBar.Font				"G_DefaultSmall"
+		FrameTitleBar.Font				"G_DefaultSmall" [!$OSX]
 		FrameTitleBar.TextColor			"G_TitleText"
 		FrameTitleBar.DisabledTextColor	"G_TitleText"
 		FrameTitleBar.BgColor			"G_TitleBg"
@@ -137,8 +137,8 @@ Scheme
 		ListPanel.SelectedBgColor			"G_Highlight"
 		ListPanel.SelectedOutOfFocusBgColor	"G_Highlight"
 		
-		MainMenu.TextColor			"G_Text"			[$WIN32]
-		MainMenu.ArmedTextColor		"G_SelectedText"	[$WIN32]
+		MainMenu.TextColor			"G_Text"			[!$OSX]
+		MainMenu.ArmedTextColor		"G_SelectedText"	[!$OSX]
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset			"6"
@@ -185,7 +185,7 @@ Scheme
 	{
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"	[!$OSX]
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
@@ -283,7 +283,7 @@ Scheme
 		}
 		
 				
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle	[!$OSX]
 		{
 			"1"
 			{
@@ -296,7 +296,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge	[!$OSX]
 		{
 			"1"
 			{
@@ -309,7 +309,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription	[!$OSX]
 		{
 			"1"
 			{
@@ -387,5 +387,13 @@ Scheme
 				"range" "0x0000 0x0451"
 			}	
 		}
+		"19" "resource/linux_fonts/DejaVuSans.ttf"
+		"20" "resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"21" "resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"22" "resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"23" "resource/linux_fonts/LiberationSans-Regular.ttf"
+		"24" "resource/linux_fonts/LiberationSans-Bold.ttf"
+		"25" "resource/linux_fonts/LiberationMono-Regular.ttf"
+		"26" "resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }

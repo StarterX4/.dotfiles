@@ -561,6 +561,7 @@
 		"PaintBackground"	"1"
 
 		"header_font"		"G_FontMedium_2"
+		"player_font"		"Default"
 		"header_fgcolor"	"G_Yellow"
 
 		"issue_width"		"180"		
@@ -664,7 +665,7 @@
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
-			"wide"				"205"
+			"wide"				"235"
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -690,7 +691,7 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"85"
+			"xpos"		"75"
 			"ypos"		"275"
 			"wide"		"100"
 			"tall"		"24"
@@ -711,7 +712,7 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"Button1"
-			"xpos"		"190"
+			"xpos"		"240"
 			"ypos"		"275"
 			"wide"		"100"
 			"tall"		"24"
