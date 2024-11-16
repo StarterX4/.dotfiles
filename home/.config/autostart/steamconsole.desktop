@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=alacritty --hold -e bash /gry/Steam/steam/steam.sh -console -cef-disable-gpu
+Exec=konsole --hold -e steam -console -cef-disable-gpu -compat-force-slr off
 Hidden=false
 X-MATE-Autostart-enabled=true
 Name[pl_PL]=steam w konsoli
