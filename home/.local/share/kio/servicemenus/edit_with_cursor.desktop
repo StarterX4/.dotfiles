@@ -1,0 +1,13 @@
+[Desktop Action opencodeossfile]
+Exec=cursor %F
+Icon=cursor
+Name=Edit with Cursor
+Name[ar]=الفتح بواسطة Cursor
+Name[nl]=Bewerken met Cursor
+
+[Desktop Entry]
+Actions=opencursorfile
+MimeType=text/plain;application/octet-stream;
+ServiceTypes=KonqPopupMenu/Plugin
+Type=Service
+X-KDE-Priority=TopLevel

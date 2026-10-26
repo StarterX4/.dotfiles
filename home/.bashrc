@@ -111,6 +111,22 @@ complete -cf sudo
 shopt -s checkwinsize
 
 shopt -s expand_aliases
+shopt -s checkhash
+shopt -s dirspell # Autocorrects misspelled directory names during tab completion
+shopt -s cdspell
+shopt -s nocaseglob
+shopt -s extglob # Required for completion?
+shopt -s histappend
+shopt -s histreedit
+shopt -s histverify
+set -o noclobber # Don't clobber files with > (override with >|)
+set -o ignoreeof # EOF (i.e. ctrl-d) doesn't exit the shell
+
+# Better completions
+bind "set show-all-if-ambiguous on"
+bind "set completion-ignore-case on"
+bind "set completion-map-case on"
+bind "set mark-symlinked-directories on"
 
 #
 # # ex - archive extractor

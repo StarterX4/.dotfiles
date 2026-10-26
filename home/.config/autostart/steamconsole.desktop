@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=konsole --hold -e steam -console -cef-disable-gpu -compat-force-slr off
+Exec=env PRESSURE_VESSEL_FILESYSTEMS_RW=/gry:/kesz konsole --hold -e steam -console -compat-force-slr off
 Hidden=false
 X-MATE-Autostart-enabled=true
 Name[pl_PL]=steam w konsoli

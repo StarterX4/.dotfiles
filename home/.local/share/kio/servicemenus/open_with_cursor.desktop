@@ -1,0 +1,14 @@
+[Desktop Action opencodeossdir]
+Exec=cursor %F
+Icon=cursor
+Name=Open with Cursor
+Name[ar]=الفتح بواسطة Cursor
+Name[nl]=Openen met Cursor
+
+[Desktop Entry]
+Actions=opencursordir
+MimeType=inode/directory;
+ServiceTypes=KonqPopupMenu/Plugin
+Type=Service
+X-KDE-Priority=TopLevel
+
